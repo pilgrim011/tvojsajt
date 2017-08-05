@@ -19,7 +19,7 @@ jQuery(function($) {
 
 	//smooth scroll
 	$('.navbar-nav > li').click(function(event) {
-		event.preventDefault();
+		//event.preventDefault();
 		var target = $(this).find('>a').prop('hash');
 		$('html, body').animate({
 			scrollTop: $(target).offset().top
@@ -52,5 +52,5 @@ jQuery(function($) {
 			return false;
 		});
 	});*/
-	
+
 });
