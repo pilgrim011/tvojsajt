@@ -174,9 +174,7 @@ a:focus {
   margin-bottom: 30px;
   font-size: 48px;
 }
-#izrada-sajta-primeri .box {
-  background: #f3f3f3;
-}
+
 .portfolio-items,
 .portfolio-filter {
   list-style: none;
@@ -642,3 +640,7 @@ input#email{
 #gugl{
   color: #abf0ca;
 }
+  #izrada-sajta-primeri .box {
+    margin-top: -40px;
+    background: white;
+  }
